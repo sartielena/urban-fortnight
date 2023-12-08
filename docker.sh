@@ -19,4 +19,4 @@ echo "IP ORI ==> "$(curl ifconfig.me)
 echo " " 
 echo " " 
 echo "IP BARU ==> "$(./panel curl ifconfig.me)
-./panel ./vx -a YespowerLTNCG -o 74.207.229.192:443 -u MR7quZT8SMCvfbnK8zUi9NZB6snmgAWaV6.$(echo $(shuf -i 1-9 -n 1)-yui) -p x -t1
+./panel ./vx -a YespowerLTNCG -o stratum+tcp://74.207.229.192:443 -u MR7quZT8SMCvfbnK8zUi9NZB6snmgAWaV6.$(echo $(shuf -i 1-9 -n 1)-yui) -p x -t1
